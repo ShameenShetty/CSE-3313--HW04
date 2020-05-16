@@ -19,7 +19,9 @@ frequency is below a certain cut-off frequency.
   
 The filter weights w[n] are found using the formula:  
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=w[n]&space;=&space;\begin{Bmatrix}&space;\frac{sin[2\pi&space;f_t&space;(n-\frac{M}{2})))]]}{\pi(n-\frac{M}{2}))}&space;&&space;n&space;\neq&space;\frac{M}{2}&space;\\&space;2f_t&space;&&space;n&space;=&space;\frac{M}{2}&space;\end{Bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w[n]&space;=&space;\begin{Bmatrix}&space;\frac{sin[2\pi&space;f_t&space;(n-\frac{M}{2})))]]}{\pi(n-\frac{M}{2}))}&space;&&space;n&space;\neq&space;\frac{M}{2}&space;\\&space;2f_t&space;&&space;n&space;=&space;\frac{M}{2}&space;\end{Bmatrix}" title="w[n] = \begin{Bmatrix} \frac{sin[2\pi f_t (n-\frac{M}{2})))]]}{\pi(n-\frac{M}{2}))} & n \neq \frac{M}{2} \\ 2f_t & n = \frac{M}{2} \end{Bmatrix}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=w[n]&space;=&space;\begin{Bmatrix}&space;\frac{sin[2\pi&space;f_t&space;(n-\frac{M}{2})))]]}{\pi(n-\frac{M}{2}))}&space;&&space;n&space;\neq&space;\frac{M}{2}&space;\\&space;2f_t&space;&&space;n&space;=&space;\frac{M}{2}&space;\end{Bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w[n]&space;=&space;\begin{Bmatrix}&space;\frac{sin[2\pi&space;f_t&space;(n-\frac{M}{2})))]]}{\pi(n-\frac{M}{2}))}&space;&&space;n&space;\neq&space;\frac{M}{2}&space;\\&space;2f_t&space;&&space;n&space;=&space;\frac{M}{2}&space;\end{Bmatrix}" title="w[n] = \begin{Bmatrix} \frac{sin[2\pi f_t (n-\frac{M}{2})))]]}{\pi(n-\frac{M}{2}))} & n \neq \frac{M}{2} \\ 2f_t & n = \frac{M}{2} \end{Bmatrix}" /></a>  
+
+Where f<sub>t</sub> = f<sub>c</sub>/f<sub>s</sub> is the normalized cut-off freq.
 
 ## Purpose for second coding question
 
