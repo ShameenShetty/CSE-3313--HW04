@@ -56,7 +56,7 @@ Where f<sub>t</sub> = f<sub>c</sub> / f<sub>s</sub> is the normalized cut-off fr
 
 * Finally for the image *darinGreyNoise.jpg* we do the following:
   - remove the noise  
-  
-    i. Display the original image in its own figure window. This image contains what is called “salt and pepper” noise.
-    ii. Remove the noise.
+    i. Display the original image in its own figure window. This image contains what is called “salt and pepper” noise.   
+    ii. Remove the noise by averaging it out using a low-pass filter. So we apply the 10-point running average to each row of the image.   
+    iii. Apply a *medin filter* (which is a nonlinear filter) to the original noisy image using `outputImage = ndimage.median filter(inputImage, 5)` where `imputImage` and `outputImage` are the names we choose. We use the import `from scipy import ndimage`
 
