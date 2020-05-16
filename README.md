@@ -13,7 +13,9 @@ frequency is below a certain cut-off frequency.
 
 ### Process for first coding question
 * First we design a low-pass filter with the following specifications
-  - nested
+  - A cut-frequency of f<sub>c</sub> = 50 Hz
+  - Filter length of L = 21, and M = filter length - 1
+  - 0 <= n < L
 
 ## Purpose for second coding question
 
