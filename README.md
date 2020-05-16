@@ -13,7 +13,7 @@ frequency is below a certain cut-off frequency.
 
 ### Process for first coding question
 * First we design a low-pass filter with the following specifications
- * nested
+ - nested
 
 ## Purpose for second coding question
 
