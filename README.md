@@ -55,7 +55,8 @@ Where f<sub>t</sub> = f<sub>c</sub> / f<sub>s</sub> is the normalized cut-off fr
 * We do these steps for each individual image given
 
 * Finally for the image *darinGreyNoise.jpg* we do the following:
-  - remove the noise
+  - remove the noise  
+  
     i. Display the original image in its own figure window. This image contains what is called “salt and pepper” noise.
     ii. Remove the noise.
 
